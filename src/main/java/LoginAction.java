@@ -11,6 +11,7 @@ public class LoginAction extends ActionSupport {
       if (u.isRegistered()) {
         return SUCCESS;
       }
+      return SUCCESS;
     }
 
     public void setEmail(String email) {
