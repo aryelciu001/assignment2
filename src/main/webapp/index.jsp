@@ -3,7 +3,9 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
     <head>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Assignment 2 - CZ3002</title>
     </head>
