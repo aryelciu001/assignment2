@@ -12,6 +12,7 @@
 
         <action name="login" class="org.apache.struts.assignment2.action.LoginAction" method="execute">
           <result name="success">/loggedIn.jsp</result>
+          <result name="error">/index.jsp</result>
         </action>
         
     </package>
