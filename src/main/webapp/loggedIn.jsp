@@ -7,11 +7,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap" rel="stylesheet">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title>Hello World!</title>
+    <title>Assignment 2 - CZ3002</title>
   </head>
   <body>
     <div class="container">
-      Successful Login!
+      <p style="text-align: center;">
+        Successful Login!<br>
+        Welcome <strong><s:property value="user.email" /></strong>
+      </p>
     </div>
   </body>
 </html>

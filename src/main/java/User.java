@@ -1,10 +1,6 @@
 package org.apache.struts.assignment2.model;
 
 public class User {
-
-    public static final String ERROR = "error";
-    public static final String SUCCESS = "success";
-
     private String email;
     private String password;
 
@@ -16,5 +12,13 @@ public class User {
     public boolean isRegistered () {
         // if user is in database
         return true;
+    }
+
+    public String getEmail () {
+        return this.email;
+    }
+
+    public String getPassword() {
+        return this.password;
     }
 }

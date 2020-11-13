@@ -5,10 +5,11 @@ import org.apache.struts.assignment2.model.User;
 public class LoginAction extends ActionSupport {
     private String email;
     private String password;
+    private User user;
 
     public String execute() throws Exception {
-      User u = new User(this.email, this.password);
-      if (u.isRegistered()) {
+      user = new User(this.email, this.password);
+      if (user.isRegistered()) {
         return SUCCESS;
       }
       return SUCCESS;
@@ -20,5 +21,9 @@ public class LoginAction extends ActionSupport {
 
     public void setPassword(String password) {
       this.password = password;
+    }
+
+    public User getUser() {
+      return this.user;
     }
 }
