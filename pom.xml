@@ -23,7 +23,7 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>5.1.39</version>
+      <version>8.0.11</version>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -48,7 +48,7 @@
             <version>9.4.7.v20170914</version>
             <configuration>
                 <webApp>
-                    <contextPath>/${build.finalName}</contextPath>
+                    <contextPath>/${project.build.finalName}</contextPath>
                 </webApp>
                 <stopKey>CTRL+C</stopKey>
                 <stopPort>8999</stopPort>
