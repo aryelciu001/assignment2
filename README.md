@@ -15,6 +15,10 @@ create table user (
   password varchar(32));
 insert into user values ("admin@gmail.com", "admin");
 
+or 
+
+run makedb.sql 
+
 Run Struts2
 1. Go to inside the directory
 2. Change MySQL credential on User.java file
